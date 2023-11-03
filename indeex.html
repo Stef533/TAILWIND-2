@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout 2</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="flex flex-col h-screen">
+  <section id="green" class="bg-green-100 flex items-center h-1/3 order-1 p-4 mb-4">
+    <p>GREEN</p>
+  </section>
+  <div class="flex flex-wrap order-2 h-1/3">
+    <section id="yellow" class="bg-yellow-100 flex w-1/3 p-4 mb-4">
+      <p>YELLOW</p>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ul>
+    </section>
+    <section id="red" class="bg-red-300 flex w-1/3 order-3 p-4 mb-4">
+      <p>RED</p>
+      <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+      </ul>
+    </section>
+    
+    <section id="blue" class="bg-blue-100 h-/3 w-1/3 order-4 p-4 mb-4">
+      <p>BLUE</p>
+    </section>
+  <section id="orange" class="bg-yellow-500 w-2/3 h-1/3 order-5 p-4 mb-4">
+    <p>ORANGE</p>
+  </section>
+</body>
+
+</html>
+
+<!-- Non risco a comprendere come gestire la posizione delle section utilizzando solo tailwind, consegno l'esercizio in queste condizioni per avere un tuo aiuto. -->
